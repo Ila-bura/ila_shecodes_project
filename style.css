@@ -7,8 +7,7 @@ h1 {
 
 h2 {
   color: #016ec6;
-  display: block;
-  margin: auto;
+
   text-align: center;
   font-size: 60px;
 }
@@ -162,4 +161,9 @@ li {
   font-size: 40px;
 
   list-style: none;
+}
+h3 {
+  margin-left: 320px;
+  margin-top: 20px;
+  font-size: medium;
 }
