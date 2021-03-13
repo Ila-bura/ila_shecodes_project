@@ -27,44 +27,46 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div class="date">
-            <h1>id="current-date"</h1>
+      <div class="dateAndForm">
+        <div class="row">
+          <div class="col-6">
+            <div class="date">
+              <h1>id="current-date"</h1>
+            </div>
           </div>
-        </div>
-        <div class="col-6">
-          <form id="search-form">
-            <input
-              type="text"
-              placeholder="Type a city"
-              autofocus="on"
-              autocomplete="off"
-              id="city-input"
-            />
-            <input type="submit" value="Search 🌏" class="search_button" />
-            <input
-              type="submit"
-              value="Current 🎯"
-              class="current_button"
-              id="current_location_button"
-            />
-          </form>
+          <div class="col-6">
+            <form id="search-form">
+              <input
+                type="text"
+                placeholder="Type a city"
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+              />
+              <input type="submit" value="Search 🌏" class="search_button" />
+              <input
+                type="submit"
+                value="Current 🎯"
+                class="current_button"
+                id="current_location_button"
+              />
+            </form>
+          </div>
         </div>
       </div>
 
-      <div class="row justify-content-md-center">
+      <div class="row">
         <div class="col"></div>
         <div class="col"></div>
         <div class="col"></div>
         <div class="col"></div>
-        <div class="col-md-auto">
+        <div class="col">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="sunny"
           />
         </div>
-        <div class="col">
+        <div class="col-md-auto">
           <h2 id="city"></h2>
         </div>
 

@@ -1,3 +1,11 @@
+body {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+
+.dateAndForm {
+  margin: 20px auto;
+}
+
 h1 {
   text-align: left;
   color: #1bb2a8;
@@ -96,10 +104,10 @@ h4 {
   background-color: white;
   border-radius: 20px;
   padding: 20px;
-  border: #016ec6;
-  border-style: solid;
-  border-width: 10px;
+  border: 1px solid #016ec6;
+  border-width: 8px;
   max-width: 70%;
+  margin: 30px auto;
 }
 .citystyle {
   text-align: right;
@@ -166,4 +174,5 @@ h3 {
   margin-left: 320px;
   margin-top: 20px;
   font-size: medium;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
