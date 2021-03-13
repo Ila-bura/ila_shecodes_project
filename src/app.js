@@ -19,6 +19,7 @@ let now = new Date();
 
       
 function displayCurrentWeather(response) {
+  console.log (response.data.main.temp)
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
@@ -28,7 +29,7 @@ function displayCurrentWeather(response) {
     response.data.wind.speed
   );
   document.querySelector("#description").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
 }
 
 function searchCity(city) {
@@ -36,6 +37,7 @@ function searchCity(city) {
   let apiKey = "5fb029ebc3ad09cdda11508274bae55c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(displayCurrentWeather);
+  
 }
 function handleSubmit(event) {
   event.preventDefault();

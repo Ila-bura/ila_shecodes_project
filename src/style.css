@@ -44,6 +44,9 @@ h2 {
 header {
   text-transform: capitalize;
 }
+.current_weather {
+  text-transform: capitalize;
+}
 
 form {
   text-align: right;
@@ -183,13 +186,12 @@ h4 {
   color: paleturquoise;
 }
 
-li {
-  display: block;
-  margin: 0 auto;
+ul {
+  margin-right: 70px;
+  margin-left: 30px;
   text-align: center;
   color: #1bb2a8;
   font-size: 40px;
-
   list-style: none;
 }
 h3 {
