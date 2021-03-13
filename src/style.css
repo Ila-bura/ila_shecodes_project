@@ -1,11 +1,33 @@
-body {
-  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
-}
-
 .dateAndForm {
   margin: 20px auto;
 }
 
+.image-city {
+  margin: 10px;
+  padding: 10px;
+}
+
+.current_weather {
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.image-city img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.temp_unit strong {
+  color: #016ec6;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.temp_unit .units {
+  position: relative;
+  font-size: 15px;
+  top: -24px;
+}
 h1 {
   text-align: left;
   color: #1bb2a8;
@@ -100,13 +122,13 @@ h4 {
   }
 }
 
-.container {
+.weather-app-wrapper {
   background-color: white;
   border-radius: 20px;
   padding: 20px;
   border: 1px solid #016ec6;
   border-width: 8px;
-  max-width: 70%;
+  max-width: 150%;
   margin: 30px auto;
 }
 .citystyle {
@@ -171,8 +193,12 @@ li {
   list-style: none;
 }
 h3 {
-  margin-left: 320px;
+  margin-left: 10px;
   margin-top: 20px;
   font-size: medium;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }

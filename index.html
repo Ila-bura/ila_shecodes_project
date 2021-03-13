@@ -27,132 +27,137 @@
   </head>
   <body>
     <div class="container">
-      <div class="dateAndForm">
+      <div class="weather-app-wrapper">
+        <div class="dateAndForm">
+          <div class="row">
+            <div class="col-6">
+              <div class="date">
+                <h1>id="current-date"</h1>
+              </div>
+            </div>
+            <div class="col-6">
+              <form id="search-form">
+                <input
+                  type="text"
+                  placeholder="Type a city"
+                  autofocus="on"
+                  autocomplete="off"
+                  id="city-input"
+                />
+                <input type="submit" value="Search 🌏" class="search_button" />
+                <input
+                  type="submit"
+                  value="Current 🎯"
+                  class="current_button"
+                  id="current_location_button"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="image-city">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col-md-auto">
+              <img
+                src="https://www.golfnet.ie/News%20Listing%20Assets/iStock-1214516974.jpg?RenditionID=12"
+                alt="sunny"
+              />
+            </div>
+            <div class="col-md-auto">
+              <h2 id="city"></h2>
+            </div>
+
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+        <section class="current_weather">
+          <div>
+            <span class="current_weather_icon" id="description"> </span>
+            <span class="temp_unit">
+              <strong>
+                <span class="temperature" id="temperature"></span></strong
+              ><span class="units">°C | <a href="#">°F</a> </span>
+            </span>
+          </div>
+
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
+          </ul>
+        </section>
+
         <div class="row">
-          <div class="col-6">
-            <div class="date">
-              <h1>id="current-date"</h1>
-            </div>
-          </div>
-          <div class="col-6">
-            <form id="search-form">
-              <input
-                type="text"
-                placeholder="Type a city"
-                autofocus="on"
-                autocomplete="off"
-                id="city-input"
-              />
-              <input type="submit" value="Search 🌏" class="search_button" />
-              <input
-                type="submit"
-                value="Current 🎯"
-                class="current_button"
-                id="current_location_button"
-              />
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="sunny"
-          />
-        </div>
-        <div class="col-md-auto">
-          <h2 id="city"></h2>
-        </div>
-
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-      </div>
-
-      <section class="current_weather">
-        <div>
-          <span class="current_weather_icon" id="description"> </span>
-          <span class="temp_unit">
-            <span class="temperature" id="temperature"></span>
-            <span class="units">°C </span>
-          </span>
-        </div>
-
-        <ul>
-          <li>Humidity: <span id="humidity"></span>%</li>
-          <li>Wind: <span id="wind"></span> km/h</li>
-        </ul>
-      </section>
-
-      <div class="row">
-        <div class="col-one-24">
-          <div class="card card-one" style="width: 12rem">
-            <div class="card-body">
-              <h5 class="card-title">Saturday</h5>
-              <i class="fas fa-cloud-sun cloudsun-icon"></i>
-              <p class="card-text">10°C</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-two-24">
-          <div class="card card-two" style="width: 12rem">
-            <div class="card-body">
-              <h5 class="card-title">Sunday</h5>
-              <i class="fas fa-cloud-rain rain-icon"></i>
-              <p class="card-text">11°C</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-three-24">
-          <div class="card card-three" style="width: 12rem">
-            <div class="card-body">
-              <h5 class="card-title">Monday</h5>
-              <i class="fas fa-wind wind-icon"></i>
-              <p class="card-text">9°C</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-four-24">
-          <div class="clearfix">
-            <div class="card card-four" style="width: 12rem">
+          <div class="col-one-24">
+            <div class="card card-one" style="width: 12rem">
               <div class="card-body">
-                <h5 class="card-title">Tuesday</h5>
+                <h5 class="card-title">Saturday</h5>
+                <i class="fas fa-cloud-sun cloudsun-icon"></i>
+                <p class="card-text">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-two-24">
+            <div class="card card-two" style="width: 12rem">
+              <div class="card-body">
+                <h5 class="card-title">Sunday</h5>
+                <i class="fas fa-cloud-rain rain-icon"></i>
+                <p class="card-text">11°C</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-three-24">
+            <div class="card card-three" style="width: 12rem">
+              <div class="card-body">
+                <h5 class="card-title">Monday</h5>
                 <i class="fas fa-wind wind-icon"></i>
                 <p class="card-text">9°C</p>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-five-24">
-          <div class="clearfix">
-            <div class="card card-five" style="width: 12rem">
-              <div class="card-body">
-                <h5 class="card-title">Wednesday</h5>
-                <i class="fas fa-cloud-sun cloudsun-icon"></i>
-                <p class="card-text">9°C</p>
+          <div class="col-four-24">
+            <div class="clearfix">
+              <div class="card card-four" style="width: 12rem">
+                <div class="card-body">
+                  <h5 class="card-title">Tuesday</h5>
+                  <i class="fas fa-wind wind-icon"></i>
+                  <p class="card-text">9°C</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-five-24">
+            <div class="clearfix">
+              <div class="card card-five" style="width: 12rem">
+                <div class="card-body">
+                  <h5 class="card-title">Wednesday</h5>
+                  <i class="fas fa-cloud-sun cloudsun-icon"></i>
+                  <p class="card-text">9°C</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
+      <h3>
+        <a
+          href="https://github.com/Ila-bura/ila_shecodes_project"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Ilaria Burani
+      </h3>
+    </div>
     <script src="src/app.js"></script>
   </body>
-  <h3>
-    <a href="https://github.com/Ila-bura/ila_shecodes_project" target="_blank"
-      >Open-source code</a
-    >
-    by Ilaria Burani
-  </h3>
 </html>
