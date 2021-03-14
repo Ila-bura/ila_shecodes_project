@@ -3,8 +3,25 @@
    let date = new Date(timestamp);
    
    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+   let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ];
    let day = days[date.getDay()];
-return `${day} ${formatHours(timestamp)}`;
+   let currentDate = date.getDate();
+   let currentMonth = months[date.getMonth()];
+   
+return `${day}, ${currentDate} ${currentMonth} - ${formatHours(timestamp)}`;
  }   
 
 function formatHours(timestamp) {
