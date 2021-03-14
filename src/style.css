@@ -28,7 +28,7 @@
 .temp_unit .units {
   position: relative;
   font-size: 15px;
-  top: -24px;
+  top: -26px;
 }
 h1 {
   text-align: left;
@@ -71,60 +71,12 @@ form {
   font-size: 40px;
 }
 
-h4 {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  color: #1bb2a8;
-  font-size: 40px;
-  margin-bottom: 20px;
-}
 .temp_unit {
   display: block;
   margin: 0 auto;
   text-align: center;
   color: #1bb2a8;
-  font-size: 40px;
-}
-.col-one-24,
-.col-two-24,
-.col-three-24,
-.col-four-24,
-.col-five-24 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-@media (min-width: 500px) {
-  .col-one-24 {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 500px) {
-  .col-two-24 {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 500px) {
-  .col-three-24 {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 500px) {
-  .col-four-24 {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 500px) {
-  .col-five-24 {
-    width: 20%;
-    float: left;
-  }
+  font-size: 28px;
 }
 
 .weather-app-wrapper {
@@ -136,57 +88,6 @@ h4 {
   max-width: 150%;
   margin: 30px auto;
 }
-.citystyle {
-  text-align: right;
-  color: #1bb2a8;
-  font-weight: bold;
-  font-size: 25px;
-}
-.card-title {
-  text-align: center;
-  font-weight: bold;
-}
-.card-one {
-  background-color: #90b7f0;
-}
-.card-two {
-  background-color: #f59393;
-}
-.card-three {
-  background-color: #dd91f2;
-}
-.card-four {
-  background-color: #f0c990;
-}
-.card-five {
-  background-color: #2fcc71;
-}
-.card-body {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.card-text {
-  font-weight: bold;
-}
-
-.cloudsun-icon {
-  font-size: 30px;
-  color: khaki;
-}
-.rain-icon {
-  font-size: 30px;
-  color: cornflowerblue;
-}
-.wind-icon {
-  font-size: 30px;
-  color: deepskyblue;
-}
-
-.cloud-icon {
-  font-size: 30px;
-  color: paleturquoise;
-}
 
 ul {
   margin-right: 70px;
@@ -195,21 +96,50 @@ ul {
   color: #1bb2a8;
   font-size: 40px;
   list-style: none;
+  margin-bottom: 40px;
 }
-h3 {
+h4 {
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: -20px;
   font-size: medium;
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
 
-body {
-  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
-}
-
-.current_weather .active,
+.temp_unit .active,
 .factive {
   color: #1bb2a8;
   cursor: default;
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.weather-forecast h3 {
+  color: #016ec6;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+}
+
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 68px;
+  width: 68px;
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  color: #016ec6;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
 }
