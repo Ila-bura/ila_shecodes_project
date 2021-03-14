@@ -206,3 +206,10 @@ h3 {
 body {
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
+
+.current_weather .active,
+.factive {
+  color: #1bb2a8;
+  cursor: default;
+  text-decoration: none;
+}
