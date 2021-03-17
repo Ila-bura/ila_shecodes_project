@@ -150,4 +150,4 @@ searchForm.addEventListener("submit", handleSubmit);
 let currentLocationButton = document.querySelector("#current_location_button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-searchCity("Galway");
+searchCity("Dublin");

@@ -13,7 +13,7 @@
 }
 
 .temp_unit strong {
-  color: #016ec6;
+  color: #008699;
   font-size: 50px;
   font-weight: normal;
 }
@@ -21,8 +21,8 @@
 .image-city .image {
   position: relative;
   top: -15px;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 140px;
+  max-height: 140px;
 }
 
 .temp_unit .units {
@@ -32,17 +32,18 @@
 }
 h1 {
   text-align: left;
-  color: #1bb2a8;
+  color: #008699;
   font-weight: bold;
   font-size: 30px;
 }
 
 h2 {
-  color: #016ec6;
-
+  color: #008093;
+font-weight: bolder;
   text-align: center;
   font-size: 60px;
 }
+
 header {
   text-transform: capitalize;
 }
@@ -52,35 +53,48 @@ header {
 
 form {
   text-align: right;
-  color: #1bb2a8;
+  color: #008699;
   font-weight: bold;
   font-size: 25px;
   
 }
-.search_button,
-.current_button {
-  text-align: right;
-  color: #1bb2a8;
+.city-form {
+  text-align: left;
+  color: #008699;
   font-weight: bold;
   font-size: 25px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 250ms ease-in-out;
-  border: 1px solid #018285;
+  border: 1px solid #008699;
+  background-color: #CBE4F7;
+
+}
+.search_button,
+.current_button {
+  text-align: right;
+  color: #008699;
+  font-weight: bold;
+  font-size: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 250ms ease-in-out;
+  border: 1px solid #008699;
+  background-color: #CBE4F7;
 }
 
 .search_button:hover,
-.current_button:hover {
+.current_button:hover, 
+.city-form:hover {
 opacity: 0.8;
 cursor: pointer;
-color: #018285;
-background: #87cbc7;
+color: #008699;
+background: #E2F0F9;
 }
 
 .current_weather_icon {
   display: block;
   margin: 0 auto;
   text-align: center;
-  color: #1bb2a8;
+  color: #008699;
   font-size: 40px;
 }
 
@@ -88,7 +102,7 @@ background: #87cbc7;
   display: block;
   margin: 0 auto;
   text-align: center;
-  color: #1bb2a8;
+  color: #008699;
   font-size: 28px;
 }
 
@@ -96,22 +110,21 @@ background: #87cbc7;
   background-color: white;
   border-radius: 20px;
   padding: 20px;
-  border: 1px solid #016ec6;
+  border: 1px solid #008699;
   border-width: 8px;
   max-width: 180%;
   margin: 30px auto;
   font-family: 'Antic Slab', serif;
-  background-image: src= "images/background.jpg";
-  
-  
+  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+
 }
 
 ul {
   margin-right: 70px;
   margin-left: 30px;
   text-align: center;
-  color: #1bb2a8;
-  font-size: 40px;
+  color: #008699;
+  font-size: 35px;
   list-style: none;
   margin-bottom: 40px;
 }
@@ -125,7 +138,7 @@ h4 {
 
 .temp_unit .active,
 .factive {
-  color: #1bb2a8;
+  color: #008699;
   cursor: default;
   text-decoration: none;
 }
@@ -136,7 +149,7 @@ h4 {
 }
 
 .weather-forecast h3 {
-  color: #016ec6;
+  color: #008699;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -154,7 +167,7 @@ h4 {
 
 .weather-forecast-temperature {
   text-align: center;
-  color: #016ec6;
+  color: #008699;
   font-size: 13px;
   font-weight: 400;
   height: auto;
@@ -163,7 +176,7 @@ h4 {
 }
 .signature {
   text-decoration: none;
-  color: #018285;
+  color: #008093;
  }
  
  .signature:hover {
