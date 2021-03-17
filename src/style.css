@@ -55,6 +55,7 @@ form {
   color: #1bb2a8;
   font-weight: bold;
   font-size: 25px;
+  
 }
 .search_button,
 .current_button {
@@ -62,7 +63,19 @@ form {
   color: #1bb2a8;
   font-weight: bold;
   font-size: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 250ms ease-in-out;
+  border: 1px solid #018285;
 }
+
+.search_button:hover,
+.current_button:hover {
+opacity: 0.8;
+cursor: pointer;
+color: #018285;
+background: #87cbc7;
+}
+
 .current_weather_icon {
   display: block;
   margin: 0 auto;
@@ -143,3 +156,11 @@ h4 {
   line-height: 15px;
   white-space: nowrap;
 }
+.signature {
+  text-decoration: none;
+  color: #018285;
+ }
+ 
+ .signature:hover {
+   cursor: pointer;
+  }
