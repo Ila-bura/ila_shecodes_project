@@ -10,6 +10,7 @@
 .current_weather {
   line-height: 50px;
   margin: 0 auto;
+  text-transform: capitalize;
 }
 
 .temp_unit strong {
@@ -42,10 +43,6 @@ h2 {
   font-weight: bolder;
   text-align: center;
   font-size: 60px;
-}
-
-.current_weather {
-  text-transform: capitalize;
 }
 
 form {
