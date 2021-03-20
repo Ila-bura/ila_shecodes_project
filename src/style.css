@@ -39,14 +39,11 @@ h1 {
 
 h2 {
   color: #008093;
-font-weight: bolder;
+  font-weight: bolder;
   text-align: center;
   font-size: 60px;
 }
 
-header {
-  text-transform: capitalize;
-}
 .current_weather {
   text-transform: capitalize;
 }
@@ -56,7 +53,6 @@ form {
   color: #008699;
   font-weight: bold;
   font-size: 25px;
-  
 }
 .city-form {
   text-align: left;
@@ -66,8 +62,7 @@ form {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 250ms ease-in-out;
   border: 1px solid #008699;
-  background-color: #CBE4F7;
-
+  background-color: #cbe4f7;
 }
 .search_button,
 .current_button {
@@ -78,16 +73,16 @@ form {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 250ms ease-in-out;
   border: 1px solid #008699;
-  background-color: #CBE4F7;
+  background-color: #cbe4f7;
 }
 
 .search_button:hover,
-.current_button:hover, 
+.current_button:hover,
 .city-form:hover {
-opacity: 0.8;
-cursor: pointer;
-color: #008699;
-background: #E2F0F9;
+  opacity: 0.8;
+  cursor: pointer;
+  color: #008699;
+  background: #e2f0f9;
 }
 
 .current_weather_icon {
@@ -114,16 +109,19 @@ background: #E2F0F9;
   border-width: 8px;
   max-width: 180%;
   margin: 30px auto;
-  font-family: 'Antic Slab', serif;
-  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
-
+  font-family: "Antic Slab", serif;
+  background: linear-gradient(
+    108.1deg,
+    rgb(167, 220, 225) 11.2%,
+    rgb(217, 239, 242) 88.9%
+  );
 }
 
 ul {
   margin-right: 70px;
   margin-left: 30px;
   text-align: center;
-  color: #008699;
+  color: #02899b;
   font-size: 35px;
   list-style: none;
   margin-bottom: 40px;
@@ -133,7 +131,7 @@ h4 {
   margin-bottom: -20px;
   margin-top: 30px;
   font-size: medium;
-  font-family: 'Antic Slab', serif;
+  font-family: "Antic Slab", serif;
 }
 
 .temp_unit .active,
@@ -177,15 +175,12 @@ h4 {
 .signature {
   text-decoration: none;
   color: #008093;
- }
- 
- .signature:hover {
-   cursor: pointer;
-  }
-
-
-
-body {
- background-image: url("https://i.ebayimg.com/images/g/C-0AAOSwPhNfhbKT/s-l1600.jpg");
 }
 
+.signature:hover {
+  cursor: pointer;
+}
+
+body {
+  background-image: url("https://i.ebayimg.com/images/g/C-0AAOSwPhNfhbKT/s-l1600.jpg");
+}
