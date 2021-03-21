@@ -51,12 +51,6 @@
                   id="city-input"
                 />
                 <input type="submit" value="Search 🌏" class="search_button" />
-                <input
-                  type="submit"
-                  value="Current 🎯"
-                  class="current_button"
-                  id="current_location_button"
-                />
               </form>
             </div>
           </div>
@@ -98,8 +92,15 @@
           <li>Wind: <span id="wind"></span> km/h</li>
         </ul>
 
-        <div class="row weather-forecast" id="forecast"></div>
-
+        <div class="row weather-forecast" id="forecast">
+          <div class="col-2">
+            <h3></h3>
+            <img src="" alt="" class="forecast-icon" />
+            <div class="weather-forecast-temperature">
+              <strong></strong>
+            </div>
+          </div>
+        </div>
         <h4>
           <p class="footer">
             <a
